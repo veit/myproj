@@ -1,0 +1,56 @@
+[project]
+
+name = "myproj"
+
+version = "0.1.0"
+
+authors = [
+
+  { name="Veit Schiele", email="veit@cusy.io" },
+
+]
+
+description = "Example package"
+
+readme = "README.rst"
+
+requires-python = ">=3.8"
+
+classifiers = [
+
+    "Programming Language :: Python :: 3",
+
+    "License :: OSI Approved :: BSD License",
+
+    "Operating System :: OS Independent",
+
+]
+
+dependencies = [
+
+    "pandas",
+
+]
+
+[project.optional-dependencies]
+tests = [
+    "coverage[toml]",
+    "pytest>=6.0",
+]
+docs = [
+    "furo",
+    "sphinxext-opengraph",
+    "sphinx-copybutton",
+    "sphinx_inline_tabs"
+]
+
+dev = [
+    "dataprep[tests, docs]",
+    "pre-commit"
+]
+
+[project.urls]
+
+"Homepage" = "https://github.com/veit/myproj"
+
+"Bug Tracker" = "https://github.com/veit/myproj/issues"
