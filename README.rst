@@ -12,3 +12,5 @@ Install
     . .venv/Scripts/activate
     python -m pip install -e ".[dev]"
 
+Tolles neues Feature
+
