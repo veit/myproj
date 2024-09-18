@@ -45,7 +45,7 @@ docs = [
 ]
 
 dev = [
-    "dataprep[tests, docs]",
+    "myproj[tests, docs]",
     "pre-commit"
 ]
 
