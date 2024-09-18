@@ -17,3 +17,5 @@ Tolles neues Feature
 
 Anderes tolles neues Feature
 ----------------------------
+
+Und noch eine tolle Änderung
