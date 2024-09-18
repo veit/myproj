@@ -1,2 +1,3 @@
 .venv/
 src/myproj.egg-info/
+docs/_build/
