@@ -46,7 +46,8 @@ docs = [
 
 dev = [
     "myproj[tests, docs]",
-    "pre-commit"
+    "pre-commit",
+    "black"
 ]
 
 [project.urls]
